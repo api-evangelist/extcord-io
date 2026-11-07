@@ -1,4 +1,4 @@
-# extcord-io
+# Extcord
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-extcord-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://extcord.io/
+Extcord provides a utility gateway for AI agents, enabling fetched pages and intermediate results to stay on the server as handles. It offers operations to list, retrieve, and execute AI-driven tasks via a simple HTTP API, supporting pipelines, recipes, and MCP streaming. The platform emphasizes privacy, with all data processing occurring server‑side, and includes rate limits, authentication notes, and comprehensive documentation for developers.
+
+**Areas:** AI · Gateway · Utility · Agents · Automation · Company
+
+## Extcord on APIs.io
+
+Everything profiled for Extcord is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/extcord-io/](https://apis.io/providers/extcord-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Extcord Benchmark API](https://apis.io/apis/extcord-io/extcord-io-benchmark-api/) — The Benchmark API from Extcord — 1 operation(s) for benchmark.
+- [Extcord H API](https://apis.io/apis/extcord-io/extcord-io-h-api/) — The H API from Extcord — 5 operation(s) for h.
+- [Extcord Llms Full.txt API](https://apis.io/apis/extcord-io/extcord-io-llms-full-txt-api/) — The Llms Full.txt API from Extcord — 1 operation(s) for llms full.txt.
+- [Extcord Llms.txt API](https://apis.io/apis/extcord-io/extcord-io-llms-txt-api/) — The Llms.txt API from Extcord — 1 operation(s) for llms.txt.
+- [Extcord Ops API](https://apis.io/apis/extcord-io/extcord-io-ops-api/) — The Ops API from Extcord — 2 operation(s) for ops.
+- [Extcord Pipelines API](https://apis.io/apis/extcord-io/extcord-io-pipelines-api/) — The Pipelines API from Extcord — 1 operation(s) for pipelines.
+- [Extcord Privacy API](https://apis.io/apis/extcord-io/extcord-io-privacy-api/) — The Privacy API from Extcord — 1 operation(s) for privacy.
+- [Extcord Recipes API](https://apis.io/apis/extcord-io/extcord-io-recipes-api/) — The Recipes API from Extcord — 3 operation(s) for recipes.
+- [Extcord Types API](https://apis.io/apis/extcord-io/extcord-io-types-api/) — The Types API from Extcord — 1 operation(s) for types.
+- [Extcord .well Known API](https://apis.io/apis/extcord-io/extcord-io-well-known-api/) — The .well Known API from Extcord — 1 operation(s) for .well known.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Extcord Io Agentic Access](https://apis.io/agentic-access/extcord-io/extcord-io-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [HandleBody](https://apis.io/schemas/extcord-io/extcord-io-handle-body/)
+- [InvokeBody](https://apis.io/schemas/extcord-io/extcord-io-invoke-body/)
+- [PipelineBody](https://apis.io/schemas/extcord-io/extcord-io-pipeline-body/)
+- [RecipeRunBody](https://apis.io/schemas/extcord-io/extcord-io-recipe-run-body/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Extcord Io Context](https://apis.io/jsonld/extcord-io/extcord-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Extcord API Rules](https://apis.io/rules/extcord-io/extcord-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Extcord Io Domain Security](https://apis.io/security/extcord-io/extcord-io-domain-security/)
+- [Extcord Io Vulnerability Disclosure](https://apis.io/security/extcord-io/extcord-io-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://extcord.io/)
+- [API reference](https://extcord.io/docs)
+- [Security](https://extcord.io/privacy)
+- [Privacy policy](https://extcord.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 33.5** — thin · rubric 0.27.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.3 |
+| Contract quality | 48.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 13.6 |
+| Access clarity | 10.5 |
+
+**Agent readiness 38.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 16.2** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/extcord-io/](https://apis.io/providers/extcord-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Extcord: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/extcord-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
